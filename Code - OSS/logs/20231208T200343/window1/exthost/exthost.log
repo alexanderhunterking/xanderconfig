@@ -1,0 +1,18 @@
+2023-12-08 20:03:48.894 [info] Extension host with pid 2726 started
+2023-12-08 20:03:49.061 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-08 20:03:49.117 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-08 20:03:49.398 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-08 20:03:49.867 [info] Eager extensions activated
+2023-12-08 20:03:50.173 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 20:03:50.201 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 20:04:23.004 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-08 20:04:23.032 [info] Extension host with pid 2726 exiting with code 0
+2023-12-08 20:04:27.299 [info] Extension host with pid 2795 started
+2023-12-08 20:04:27.299 [info] Skipping acquiring lock for /home/xanderk/.config/Code - OSS/User/workspaceStorage/25eeb52fba3cc3aa33068747ee7a5750.
+2023-12-08 20:04:27.441 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-12-08 20:04:28.009 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-08 20:04:28.178 [info] Eager extensions activated
+2023-12-08 20:04:28.252 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 20:04:28.258 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-08 20:04:31.035 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-12-08 20:04:32.227 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

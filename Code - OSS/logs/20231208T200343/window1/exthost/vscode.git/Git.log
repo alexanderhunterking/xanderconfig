@@ -1,0 +1,110 @@
+2023-12-08 20:03:49.921 [info] Log level: Info
+2023-12-08 20:03:49.922 [info] Validating found git in: "git"
+2023-12-08 20:03:49.922 [info] Using git "2.43.0" from "git"
+2023-12-08 20:04:31.596 [info] Log level: Info
+2023-12-08 20:04:31.596 [info] Validating found git in: "git"
+2023-12-08 20:04:31.596 [info] Using git "2.43.0" from "git"
+2023-12-08 20:04:31.596 [info] > git rev-parse --show-toplevel [26ms]
+2023-12-08 20:04:31.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.600 [info] > git rev-parse --show-toplevel [15ms]
+2023-12-08 20:04:31.600 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.649 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-08 20:04:31.649 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.692 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-08 20:04:31.696 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.738 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-08 20:04:31.738 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.793 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-08 20:04:31.794 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.826 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-08 20:04:31.826 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.864 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-08 20:04:31.864 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:31.906 [info] > git rev-parse --show-toplevel [16ms]
+2023-12-08 20:04:31.921 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-08 20:04:31.961 [info] Open repository: /home/xanderk/.config/nvim
+2023-12-08 20:04:32.004 [info] > git config --get commit.template [18ms]
+2023-12-08 20:04:32.006 [info] > git rev-parse --show-toplevel [6ms]
+2023-12-08 20:04:32.006 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.044 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-08 20:04:32.044 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/v2.0 refs/remotes/v2.0 [25ms]
+2023-12-08 20:04:32.075 [warning] ENOENT: no such file or directory, open '/home/xanderk/.config/nvim/.git/refs/remotes/origin/v2.0'
+2023-12-08 20:04:32.079 [info] > git rev-parse refs/remotes/origin/v2.0 [4ms]
+2023-12-08 20:04:32.095 [info] > git rev-parse --show-toplevel [33ms]
+2023-12-08 20:04:32.096 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.126 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-08 20:04:32.126 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.145 [info] > git status -z -uall [51ms]
+2023-12-08 20:04:32.146 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-08 20:04:32.146 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.214 [info] > git config --get commit.template [6ms]
+2023-12-08 20:04:32.214 [info] > git rev-parse --show-toplevel [20ms]
+2023-12-08 20:04:32.214 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.352 [info] > git rev-parse --show-toplevel [125ms]
+2023-12-08 20:04:32.352 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.382 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/v2.0 refs/remotes/v2.0 [31ms]
+2023-12-08 20:04:32.396 [warning] ENOENT: no such file or directory, open '/home/xanderk/.config/nvim/.git/refs/remotes/origin/v2.0'
+2023-12-08 20:04:32.399 [info] > git rev-parse --show-toplevel [18ms]
+2023-12-08 20:04:32.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.415 [info] > git rev-parse refs/remotes/origin/v2.0 [18ms]
+2023-12-08 20:04:32.429 [info] > git rev-parse --show-toplevel [15ms]
+2023-12-08 20:04:32.429 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-08 20:04:32.433 [info] > git status -z -uall [8ms]
+2023-12-08 20:04:32.565 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-08 20:04:42.400 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-08 20:04:42.425 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-12-08 20:04:42.457 [info] Open repository: /home/xanderk/.config
+2023-12-08 20:04:42.521 [info] > git config --get commit.template [27ms]
+2023-12-08 20:04:42.536 [info] No remotes found in the git config file.
+2023-12-08 20:04:42.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-08 20:04:42.559 [info] > git status -z -uall [8ms]
+2023-12-08 20:04:42.607 [info] > git config --get commit.template [4ms]
+2023-12-08 20:04:42.620 [info] No remotes found in the git config file.
+2023-12-08 20:04:42.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-12-08 20:04:42.650 [info] > git status -z -uall [12ms]
+2023-12-08 20:04:43.032 [info] > git check-ignore -v -z --stdin [16ms]
+2023-12-08 20:04:43.034 [info] > git check-ignore -v -z --stdin [5ms]
+2023-12-08 20:04:44.017 [info] > git config --get commit.template [2ms]
+2023-12-08 20:04:44.028 [info] No remotes found in the git config file.
+2023-12-08 20:04:44.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:04:44.047 [info] > git status -z -uall [6ms]
+2023-12-08 20:04:50.622 [info] No remotes found in the git config file.
+2023-12-08 20:04:50.622 [info] > git config --get commit.template [14ms]
+2023-12-08 20:04:50.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:04:50.661 [info] > git status -z -uall [27ms]
+2023-12-08 20:04:55.691 [info] > git config --get commit.template [2ms]
+2023-12-08 20:04:55.705 [info] No remotes found in the git config file.
+2023-12-08 20:04:55.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:04:55.744 [info] > git status -z -uall [23ms]
+2023-12-08 20:05:01.648 [info] > git config --get commit.template [4ms]
+2023-12-08 20:05:01.662 [info] No remotes found in the git config file.
+2023-12-08 20:05:01.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:05:01.700 [info] > git status -z -uall [25ms]
+2023-12-08 20:05:06.744 [info] > git config --get commit.template [1ms]
+2023-12-08 20:05:06.761 [info] No remotes found in the git config file.
+2023-12-08 20:05:06.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:05:06.801 [info] > git status -z -uall [26ms]
+2023-12-08 20:05:11.273 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-08 20:05:12.011 [info] > git config --get commit.template [2ms]
+2023-12-08 20:05:12.021 [info] No remotes found in the git config file.
+2023-12-08 20:05:12.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:05:12.057 [info] > git status -z -uall [22ms]
+2023-12-08 20:05:14.775 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-08 20:05:17.090 [info] No remotes found in the git config file.
+2023-12-08 20:05:17.091 [info] > git config --get commit.template [12ms]
+2023-12-08 20:05:17.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-12-08 20:05:17.126 [info] > git status -z -uall [23ms]
+2023-12-08 20:05:20.749 [info] > git config --get commit.template [4ms]
+2023-12-08 20:05:20.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/v2.0 refs/remotes/v2.0 [3ms]
+2023-12-08 20:05:20.774 [warning] ENOENT: no such file or directory, open '/home/xanderk/.config/nvim/.git/refs/remotes/origin/v2.0'
+2023-12-08 20:05:20.776 [info] > git rev-parse refs/remotes/origin/v2.0 [2ms]
+2023-12-08 20:05:20.791 [info] > git status -z -uall [5ms]
+2023-12-08 20:05:22.155 [info] > git config --get commit.template [2ms]
+2023-12-08 20:05:22.165 [info] No remotes found in the git config file.
+2023-12-08 20:05:22.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-08 20:05:22.200 [info] > git status -z -uall [22ms]
+2023-12-08 20:05:28.551 [info] No remotes found in the git config file.
+2023-12-08 20:05:28.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-12-08 20:05:28.553 [info] > git config --get commit.template [32ms]
+2023-12-08 20:05:28.619 [info] > git status -z -uall [41ms]
