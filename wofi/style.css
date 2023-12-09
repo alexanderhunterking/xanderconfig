@@ -1,47 +1,62 @@
-/*
-Arc-Dark Color Scheme
-*/
-
-@define-color highlight #5294e2;
-@define-color base1  rgba(0,0,0,0);
-@define-color base2 rgba(0,0,0,0.9);
-@define-color base3  rgba(0,0,0,0);
-
-*{
-    font-family: UbuntuMono;
-}
-
 window {
-    border: 1px solid @highlight;
+    margin: 0px;
+    border: 5px solid #1e1e2e;
+    background-color: #cdd6f4;
+    border-radius: 0px;
 }
 
 #input {
-    margin-bottom: 15px;
-    padding:3px;
-    border-radius: 5px;
-    border:none;
-    color: white;
+    padding: 4px;
+    margin: 4px;
+    padding-left: 20px;
+    border: none;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #1e1e2e;
+   	outline: none;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+#input:focus {
+    border: 0px solid #1e1e2e;
+    margin-bottom: 0px;
 }
 
 #inner-box {
-    background-color: @base3;
+    margin: 4px;
+    border: 10px solid #1e1e2e;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #1e1e2e;
+    border-radius: 15px;
 }
 
 #outer-box {
-    margin: 5px;
-    padding:15px;
-    background-color: @base2;
+    margin: 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1e1e2e;
 }
 
-#text {
-    padding: 5px;
-    color: white;
+#scroll {
+    margin-top: 5px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    /* background: rgb(255,255,255); */
 }
 
-#entry:nth-child(even) {
-    background-color: @base1;
+#img:selected {
+    background-color: #89b4fa;
+    border-radius: 15px;
 }
 
-#entry:selected {
-    background-color: @highlight;
+#text:selected {
+    color: #cdd6f4;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #89b4fa;
 }
+
